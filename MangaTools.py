@@ -14,7 +14,7 @@ uiLoader = QUiLoader()
 class MangaTools:
     def __init__(self):
         # 再加载界面
-        self.ui = uiLoader.load(r'D:\PythonProject\Manga_Tools\ui\rename.ui')
+        self.ui = uiLoader.load(r'D:\PythonProject\MangaTools\ui\rename.ui')
 
         self.numbers = None
         self.last_number = None
